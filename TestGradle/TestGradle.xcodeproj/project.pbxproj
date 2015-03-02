@@ -15,6 +15,7 @@
 		8929B9C31AA484F300386ABA /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8929B9C21AA484F300386ABA /* Images.xcassets */; };
 		8929B9C61AA484F300386ABA /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8929B9C41AA484F300386ABA /* LaunchScreen.xib */; };
 		8929B9D21AA484F300386ABA /* TestGradleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8929B9D11AA484F300386ABA /* TestGradleTests.m */; };
+		8929B9DC1AA486C700386ABA /* build.gradle in Resources */ = {isa = PBXBuildFile; fileRef = 8929B9DB1AA486C700386ABA /* build.gradle */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -43,6 +44,7 @@
 		8929B9CB1AA484F300386ABA /* TestGradleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestGradleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8929B9D01AA484F300386ABA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8929B9D11AA484F300386ABA /* TestGradleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestGradleTests.m; sourceTree = "<group>"; };
+		8929B9DB1AA486C700386ABA /* build.gradle */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = build.gradle; path = ../build.gradle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		8929B9B21AA484F300386ABA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8929B9DB1AA486C700386ABA /* build.gradle */,
 				8929B9B31AA484F300386ABA /* Info.plist */,
 				8929B9B41AA484F300386ABA /* main.m */,
 			);
@@ -205,6 +208,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8929B9C11AA484F300386ABA /* Main.storyboard in Resources */,
+				8929B9DC1AA486C700386ABA /* build.gradle in Resources */,
 				8929B9C61AA484F300386ABA /* LaunchScreen.xib in Resources */,
 				8929B9C31AA484F300386ABA /* Images.xcassets in Resources */,
 			);
@@ -420,6 +424,7 @@
 				8929B9D71AA484F300386ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8929B9D81AA484F300386ABA /* Build configuration list for PBXNativeTarget "TestGradleTests" */ = {
 			isa = XCConfigurationList;
@@ -428,6 +433,7 @@
 				8929B9DA1AA484F300386ABA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
